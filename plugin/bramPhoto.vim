@@ -4,13 +4,13 @@
 " --- Custom Quit Function ---"
 function! DelayedQuit(command)
     " 1. Diplay the message
-    echo "You have bowed to shomen Brem as you successfully found a way to exit Vim and doing so."
+    echo "You have bowed to shomen Brem as you successfully found a way to exit Vim and are doing so."
     
     " The redraw! command forces Vim to update the screen 
     " so the echo message is visible before the timer starts.
     redraw! 
 
-    echo "You have bowed to shomen Brem as you successfully found a way to exit Vim and doing so."
+    echo "You have bowed to shomen Brem as you successfully found a way to exit Vim and are doing so."
     " 2. Start a timer to run the quit command
     " The time is in milliseconds (1500ms = 1.5 seconds).
     " The command is executed *after* the delay.
